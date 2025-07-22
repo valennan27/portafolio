@@ -1,7 +1,7 @@
 :root {
   --bg-dark: #0f0f0f;
   --bg-light: #1a1a1a;
-  --pink: #f06292;
+  --blue: #0000FF;
   --white: #fce4ec;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #880e4f, #f06292);
+  background: linear-gradient(135deg, #880e4f, ##0000FF);
   text-align: center;
   padding: 40px 20px;
   color: white;
@@ -45,7 +45,7 @@ nav {
   display: flex;
   justify-content: center;
   padding: 10px 0;
-  border-bottom: 2px solid #f06292;
+  border-bottom: 2px solid #0000FF;
 }
 
 nav ul {
@@ -55,7 +55,7 @@ nav ul {
 }
 
 nav a {
-  color: var(--pink);
+  color: var(--blue);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s;
@@ -76,14 +76,14 @@ main {
 }
 
 h2 {
-  color: var(--pink);
+  color: var(--blue);
   margin-bottom: 15px;
   font-size: 1.5rem;
 }
 
 .tags span {
   background-color: #2e2e2e;
-  color: var(--pink);
+  color: var(--blue);
   padding: 8px 12px;
   margin: 5px;
   display: inline-block;
@@ -120,7 +120,7 @@ h2 {
 
 .project-card h3 {
   padding: 10px;
-  color: var(--pink);
+  color: var(--blue);
 }
 
 .project-card p {
