@@ -19,7 +19,7 @@ body {
 }
 
 header {
-  background: linear-gradient(135deg, #880e4f, ##0000FF);
+  background: linear-gradient(135deg, #880e4f, #0000FF);
   text-align: center;
   padding: 40px 20px;
   color: white;
